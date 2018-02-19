@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML+JS</title>
+    <link rel="stylesheet" href="timer.css">
+    <script src="timer.js"></script>
+  </head>
+  <body>
+
+      <!-- タイマー -->
+    <div id="timer">
+      <h1>Timer</h1>
+      <p>
+        <span id="min">0</span> 分
+        <span id="sec">0</span> 秒
+      </p>
+      <p>
+        <input type="button" id="start" value="START">
+        <input type="button" id="stop" value="STOP" disabled>
+        <input type="button" id="reset" value="RESET">
+      </p>
+    </div>
+
+      <!-- おみくじ -->
+      <div id="omikuji">
+      <h1>おみくじ</h1>
+      <p id="output">あなたの本日の運勢は…？</p>
+      <input type="button" id="btn" value="占う">
+    </div>
+
+
+    <!-- テキストエリア -->
+    <textarea id="text_area" rows="3" cols="30"></textarea>
+   <span id="text_length">100</span>
+  </body>
+</html>
