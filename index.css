@@ -1,39 +1,44 @@
-body{
+body {
   height: 1000px;
-background: radial-gradient(#F2B9A1, #EA6264);
+  background: radial-gradient(#F2B9A1, #EA6264);
 }
-div#loginForm{
+
+div#loginForm {
   border-radius: 8px;
-  background-color: rgba(255,246,127,0.5);
+  background-color: rgba(255, 246, 127, 0.5);
   text-align: center;
   border: 1px dotted blue;
   width: 25%;
   position: relative;
   top: 130px;
-  left:500px;
+  left: 500px;
   padding: 15px 20px;
 }
 
-p{
+p {
   font-family: cursive;
 }
-input[type=text]{
+
+input[type=text] {
   border-radius: 8px;
 }
-input[type=submit]{
-  width:
-  color: white;
+
+input[type=submit] {
+  width: color: white;
   background-color: aqua;
   text-align: center;
   margin-top: 10px;
 }
+
 /* input[type=submit]:active{
   color: white;
   background-color: aqua;
 } */
-a#forgetPas{
+
+a#forgetPas {
   text-decoration: none;
 }
-a#forgetPas:hover{
+
+a#forgetPas:hover {
   opacity: 0.8;
 }

@@ -1,8 +1,9 @@
 body {
-
-        background: #EEE;
+  background: #EEE;
 }
-  /*  タイマー */
+
+/*  タイマー */
+
 #timer {
   background: #FFF;
   border-radius: 10px;
@@ -14,18 +15,18 @@ body {
   width: 300px;
 }
 
-#timer > h1 {
+#timer>h1 {
   font-family: sans-serif;
   font-size: 25px;
 }
 
-#timer > p > span {
+#timer>p>span {
   color: #C00;
   font-size: 25px;
   font-weight: lighter;
 }
 
-#timer > p > input[type*="button"] {
+#timer>p>input[type*="button"] {
   background: #F60;
   border: 0;
   border-radius: 5px;
@@ -34,21 +35,21 @@ body {
   width: 80px;
 }
 
-#timer > p > input[type*="button"]:hover {
+#timer>p>input[type*="button"]:hover {
   background: #F93;
 }
 
-#timer > p > input[type*="button"]:active {
+#timer>p>input[type*="button"]:active {
   background: #C30;
 }
 
-#timer > p > input[type*="button"]:disabled {
+#timer>p>input[type*="button"]:disabled {
   background: #C30;
   cursor: default;
 }
 
-
 /* おみくじ */
+
 #omikuji {
   text-align: center;
   width: 294px;
@@ -56,32 +57,32 @@ body {
   border: 3px double #990;
 }
 
-#omikuji > h1 {
+#omikuji>h1 {
   color: #630;
   font-family: serif;
 }
 
-#omikuji > #output > h2 {
+#omikuji>#output>h2 {
   font-size: 70px;
   font-family: serif;
   margin: 0;
   text-shadow: 0 -1px 0 #222;
 }
 
-#omikuji > #output > p {
+#omikuji>#output>p {
   font-size: 15px;
   font-family: serif;
   margin: 0;
 }
 
-#omikuji > #output {
+#omikuji>#output {
   background-color: #C00;
   color: #FFF;
   margin: 10px auto;
   padding: 5px;
 }
 
-#omikuji > #btn {
+#omikuji>#btn {
   background: #740;
   border: 0;
   color: #FFF;
@@ -92,17 +93,16 @@ body {
   padding: 5px 20px;
 }
 
-#omikuji > #btn:hover {
+#omikuji>#btn:hover {
   background: #960;
 }
 
-#omikuji > #btn:active {
+#omikuji>#btn:active {
   background: #630;
 }
 
-
-
 /*  テキストエリア */
+
 #text_area {
   margin-top: 20px;
   border-radius: 5px;
